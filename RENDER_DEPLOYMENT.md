@@ -40,11 +40,11 @@
 Add these in Render Dashboard → Environment:
 
 ```env
-DATABASE_URL=postgresql://neondb_owner:npg_dHP9p0ekDbQW@ep-old-tree-aderx32c-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=postgresql://<user>:<password>@<host>.neon.tech/<dbname>?sslmode=require&channel_binding=require
 
 JWT_SECRET=your-very-secure-random-jwt-secret-key-here-make-it-long-and-random-at-least-32-chars
 
-GEMINI_API_KEY=AIzaSyCFBBKnZWWbLew60Bvu-QW4nepCGtPDuHI
+GEMINI_API_KEY=your-google-gemini-api-key-here
 
 NODE_ENV=production
 
@@ -240,9 +240,9 @@ Open in browser: `https://capstone-frontend.onrender.com`
 
 ### Backend (.env for Render):
 ```env
-DATABASE_URL=postgresql://neondb_owner:npg_dHP9p0ekDbQW@ep-old-tree-aderx32c-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require
+DATABASE_URL=postgresql://<user>:<password>@<host>.neon.tech/<dbname>?sslmode=require&channel_binding=require
 JWT_SECRET=your-secure-secret-key-min-32-characters
-GEMINI_API_KEY=AIzaSyCFBBKnZWWbLew60Bvu-QW4nepCGtPDuHI
+GEMINI_API_KEY=your-google-gemini-api-key-here
 NODE_ENV=production
 PORT=10000
 ```
