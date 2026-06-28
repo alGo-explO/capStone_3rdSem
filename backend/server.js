@@ -23,6 +23,7 @@ const corsOptions = {
     'https://captoneproject-one.vercel.app',
     'https://readinghubfrontend.vercel.app',
     'https://readinghubfrontend-le6jhs2vk-sambhav-kumars-projects-6a95d468.vercel.app',
+    'https://cap-stone-3rd-sem.vercel.app',
     'http://localhost:3000',
     'http://localhost:3001',
     'http://localhost:5173'
