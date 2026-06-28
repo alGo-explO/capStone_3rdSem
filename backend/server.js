@@ -21,6 +21,7 @@ const corsOptions = {
   origin: [
     'https://capstone-sem3-kappa.vercel.app',
     'https://captoneproject-one.vercel.app',
+    'https://readinghubfrontend.vercel.app',
     'http://localhost:3000',
     'http://localhost:3001',
     'http://localhost:5173'
